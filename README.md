@@ -12,7 +12,7 @@ the number of HTTP client requests that are made at one time for web sites that
 are touchy about getting hundreds of requests at a time.
 
 The example below shows how to query a list of URLs limiting the queries to
-4 at a time. The full example is in [examples/content_size](examples/content_size).
+4 at a time. The full example is in [examples/content_size](https://github.com/devries/task_limiter/tree/main/examples/content_size).
 
 ```gleam
 import gleam/http/request
