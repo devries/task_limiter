@@ -1,0 +1,16 @@
+name = "task_limiter"
+version = "1.0.0"
+license = ["MIT"]
+description = "A library which manages a list of tasks, running then N at a time."
+target = "erlang"
+
+repository = { type = "github", user = "devries", repo = "task_limiter" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_otp = ">= 0.16.1 and < 1.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
+gleam_erlang = ">= 0.34.0 and < 1.0.0"
+gleam_time = ">= 1.1.0 and < 2.0.0"
