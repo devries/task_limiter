@@ -1,6 +1,6 @@
 name = "task_limiter"
 version = "1.0.0"
-license = ["MIT"]
+licenses = ["MIT"]
 description = "A library which manages a list of tasks, running then N at a time."
 target = "erlang"
 
